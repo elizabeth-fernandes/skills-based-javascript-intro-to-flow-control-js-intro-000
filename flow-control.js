@@ -24,6 +24,7 @@ return (age >= 13 && age <= 19) ? "You are a teenager" : "You are not a teenager
 }
 
 function switchAge(age) {
+var age = 13
 switch (age) {
   case 13:
     console.log("You are a teenager");
